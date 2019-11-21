@@ -36,6 +36,9 @@ set lazyredraw      " redraw only when need to
 
 set showmatch       " highlight matching brackets ()[]{}
 
+set number relativenumber " enable hybrid line numbers (relative and absolute line numbers)
+set nu rnu 
+
 " }}}
 
 
