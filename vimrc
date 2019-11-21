@@ -91,8 +91,10 @@ nnoremap gV `[v`]
 
 let mapleader=","     " leader is comma
 
-inoremap jk <esc>     " jk is escape
+" jk is escape (NOTE: NO COMMENTS OR WHITESPACE AFTER REMAP COMMAND)
+inoremap jk <esc> 
 
-nnoremap <leader>u :GundoToggle<CR> " toggle undo tree (gundo)
+" toggle undo tree (gundo)
+nnoremap <leader>u :GundoToggle<CR> 
 
-
+" }}}
